@@ -1,4 +1,10 @@
-
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -36,4 +42,31 @@
     gap: 48px;
     padding: 22px 0;
     margin: 5.5px 0;
+}
+
+/* Banner Styles */
+
+.banner-containar{
+    display: flex;
+    margin: 0 80px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0;
+}
+.banner-subcontainar{
+   /* width: 570px; */
+    /* height: 296px; */
+    margin-top: 165px;
+}
+.banner-img{
+    margin-top: 80px;
+    margin-bottom: 0;
+    width: 100%;
+}
+.banner-description{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
 }
