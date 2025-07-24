@@ -23,6 +23,21 @@
 .width-max{
     max-width: 1140px;
 }
+.font-22{
+    font-size: 22px;
+}
+.pramiry-btn{
+    color: #FFFFFF;
+    background-color: #E95A08;
+    text-decoration: none;
+    border: none;
+    padding: 19px 80px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn{
+    height: 50px;
+}
 
 /* Navbar Styles */
 
@@ -60,13 +75,45 @@
     /* height: 296px; */
     margin-top: 165px;
 }
-.banner-img{
-    margin-top: 80px;
-    margin-bottom: 0;
-    width: 100%;
-}
 .banner-description{
     font-size: 22px;
     font-weight: 400;
     margin: 0;
+}
+
+/* Plants Section */
+
+.section-card-containar{
+    margin: 100px 55px 0 55px;
+}
+.card-containar{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #111111;
+    row-gap: 30px;
+}
+.h3-title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+.p-card-description{
+    text-align: center;
+    margin: 16px 130px 49px 130px;
+}
+.card-box{
+    width: 270px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title{
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.card-price{
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
