@@ -171,19 +171,13 @@
 .Latest-Deals{
     display: flex;
     gap: 28px;
-    margin: 0 50px;
+    margin: 120px 50px;
 }
 .img-1{
     width: 367px;
 }
 .border-radius{
     border-radius: 14px;
-}
-.width{
-    width: 753px;
-}
-.deal-ana{
-    opacity: 2; 
 }
 .Latest-Deals-h1{
     text-align: center;
@@ -202,4 +196,21 @@
 .Latest-Deals-a{
     text-align: center;
     margin-top: -300px;  
+}
+.Bunch{
+    background-image: url(../assets/news-letter-bg.png);
+    height: 500px;
+    text-align: center;
+}
+.Bunch-container{
+    padding-top: 199px;
+    margin-top: 150px;
+}
+.Bunch-h1{
+    margin-bottom: 23px;
+}
+.input-Bunch{
+    width: 644px;
+    padding: 19px 20px;
+    border: none;
 }
