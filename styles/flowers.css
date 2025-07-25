@@ -26,15 +26,32 @@
 .color-5{
     color: #000000;
 }
+.color-6{
+    color: #FFFFFF;
+}
 .width-max{
     max-width: 1140px;
 }
 .font-22{
     font-size: 22px;
 }
+.font-40{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.font-28{
+    font-size: 28px;
+}
 .font-700{
     font-weight: 700;
 }
+.font-600{
+    font-weight: 600;
+}
+/* .text-none{
+    
+    font-weight: 600;
+} */
 .pramiry-btn{
     color: #FFFFFF;
     background-color: #E95A08;
@@ -147,4 +164,42 @@
 .flower-store-contant{
     width: 540px;
     margin: 39px 0;
+}
+
+/* Latest Deals */
+
+.Latest-Deals{
+    display: flex;
+    gap: 28px;
+    margin: 0 50px;
+}
+.img-1{
+    width: 367px;
+}
+.border-radius{
+    border-radius: 14px;
+}
+.width{
+    width: 753px;
+}
+.deal-ana{
+    opacity: 2; 
+}
+.Latest-Deals-h1{
+    text-align: center;
+    margin-top: -170px;
+    margin-bottom: 103px;
+}
+.margin-bot{
+    margin-bottom: 0;
+}
+.text-none{
+    text-underline-offset: 3px;
+}
+.text-none-2{
+    text-underline-offset: 6px;
+}
+.Latest-Deals-a{
+    text-align: center;
+    margin-top: -300px;  
 }
